@@ -1,0 +1,18 @@
+server:
+  port: 8081
+person:
+  age: 30
+  dog.name: lela
+  boss: false
+  last-name: sa
+---
+
+server:
+  port: 8083
+person:
+  age: 31
+  dog.name: 李四
+  boss: true
+spring:
+  profiles:
+    active: true
