@@ -13,7 +13,7 @@ import java.util.Map;
 @ConfigurationProperties(prefix = "person")
 
 public class Person {
-
+//
     private String lastName;
     private Integer age;
 
