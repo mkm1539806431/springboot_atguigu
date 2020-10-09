@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpa?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=true
+    username: root
+    password: makunming123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8081
